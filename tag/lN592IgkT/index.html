@@ -1,168 +1,180 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
 
-<title>Gridea | nicedream的小站</title>
-<meta name="description" content="小网站">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://github.com/nicedream18/nicedream18.github.io.git/favicon.ico?v=1679730533992">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<head>
+  <meta charset="utf-8" />
+<meta name="description" content="小网站" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title> Gridea | nicedream的小站</title>
+<link rel="shortcut icon" href="https://github.com/nicedream18/nicedream18.github.io.git/favicon.ico?v=1679730860566">
 <link rel="stylesheet" href="https://github.com/nicedream18/nicedream18.github.io.git/styles/main.css">
 
 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Header -->
+<header id="header">
+  <div class="inner">
+    <!-- Logo -->
+    <a href="https://github.com/nicedream18/nicedream18.github.io.git" class="logo">
+      <span class="symbol"
+        ><img
+          src="https://github.com/nicedream18/nicedream18.github.io.git/images/avatar.png?v=1679730860566"
+          alt=""
+        />
+      </span>
+      <div class="site-title"> nicedream的小站 </div>
+    </a>
 
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://github.com/nicedream18/nicedream18.github.io.git">
-        <img class="avatar" src="https://github.com/nicedream18/nicedream18.github.io.git/images/avatar.png?v=1679730533992" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://github.com/nicedream18/nicedream18.github.io.git">
-        <h1 class="site-title">nicedream的小站</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <!-- Nav -->
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
   </div>
-</div>
+</header>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+<!-- Menu -->
+<nav id="menu">
+  <ul>
+    
+    
+      <li><a href="/" class="menu">
+        首页
+      </a></li>
       
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
+    
+    
+      <li><a href="/archives" class="menu">
+        归档
+      </a></li>
       
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
+    
+    
+      <li><a href="/tags" class="menu">
+        标签
+      </a></li>
       
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
+    
+    
+      <li><a href="/post/about" class="menu">
+        关于
+      </a></li>
       
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
+    
+  </ul>
+</nav>
 
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <div class="current-tag-container">
+            <h2 class="tags-title">
+              #Gridea
+            </h2>
+          </div>
+          <section class="tiles">
+            
 
-      <div class="content-container">
-
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> Gridea
-          </h2> 
-        </div>
-
-        
-<section class="post-item">
-    <div class="content">
+  <article class="style1">
+    <span class="image">
+      
+        <a href="https://github.com/nicedream18/nicedream18.github.io.git/post/hello-gridea/">
+          <img src='https://github.com/nicedream18/nicedream18.github.io.git/post-images/hello-gridea.png' alt="" loading="lazy"/>
+        </a>
+      
+    </span>
+    <div class="post-title">
       <a href="https://github.com/nicedream18/nicedream18.github.io.git/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
+        <h2>Hello Gridea</h2>
       </a>
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+    </div>
+    <div class="post-info">
+      <time class="post-time">
+        2018-12-12
+      </time>
+      
+        <a href="https://github.com/nicedream18/nicedream18.github.io.git/tag/lN592IgkT/" class="post-tag">
+          # Gridea
+        </a>
+      
+    </div>
+    <div class="post-abstract content">
+      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://github.com/nicedream18/nicedream18.github.io.git/tag/lN592IgkT/">
-                Gridea
-                
-              </a>
-            
-          </span>
-        
-      </div>
     </div>
-    
-      <a href="https://github.com/nicedream18/nicedream18.github.io.git/post/hello-gridea/">
-        <div class="feature-container" style="background-image: url('https://github.com/nicedream18/nicedream18.github.io.git/post-images/hello-gridea.png')">
+  </article>
+
+
+
+
+          </section>
+          <div class="pagination-container">
+  
+  
+</div>
+
+
         </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
       </div>
 
-      <div class="site-footer">
-  <div class="slogan">小网站</div>
-  <div class="social-container">
-    
+      <!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <section>
+      <h2>Follow</h2>
+      <ul class="icons">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </section>
+    <ul class="copyright">
+      <li>
+        <a href="https://github.com/nicedream18/nicedream18.github.io.git/atom.xml" target="_blank">
+          RSS
+        </a> 
+      </li>
+      <li><a href="https://github.com/wherelse/gridea-theme-phantom">Theme Phantom</a></li>
+      <li>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></li>
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    </ul>
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://github.com/nicedream18/nicedream18.github.io.git/atom.xml" target="_blank">RSS</a>
-</div>
+</footer>
+  </div>
 
+  <!-- Scripts -->
+  <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/jquery.min.js"></script>
+  <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/browser.min.js"></script>
+  <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/breakpoints.min.js"></script>
+  <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/util.js"></script>
+  <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/main.js"></script>
 
-    </div>
-    <script type="application/javascript">
+  </div>
+  </div>
+</body>
 
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  </body>
 </html>

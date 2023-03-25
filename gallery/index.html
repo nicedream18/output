@@ -4,18 +4,15 @@
     <meta charset="utf-8" />
 <meta name="description" content="小网站" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>nicedream的小站</title>
+<title> undefined | nicedream的小站 </title>
 <link rel="shortcut icon" href="https://github.com/nicedream18/nicedream18.github.io.git/favicon.ico?v=1679730860566">
 <link rel="stylesheet" href="https://github.com/nicedream18/nicedream18.github.io.git/styles/main.css">
 
-
+	
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <noscript>
-      <link rel="stylesheet" href="https://github.com/nicedream18/nicedream18.github.io.git/media/css/noscript.css" />
-    </noscript>
   </head>
 
   <body class="is-preload">
@@ -79,55 +76,22 @@
       <!-- Main -->
       <div id="main">
         <div class="inner">
-          <header>
-            <div class="site-description">小网站</div>
-          </header>
+
+          <div class="post-pagetitle">
+            <h2></h2>
+          </div>
+
           <section class="tiles">
-            
-
-  <article class="style1">
-    <span class="image">
-      
-        <a href="https://github.com/nicedream18/nicedream18.github.io.git/post/hello-gridea/">
-          <img src='https://github.com/nicedream18/nicedream18.github.io.git/post-images/hello-gridea.png' alt="" loading="lazy"/>
-        </a>
-      
-    </span>
-    <div class="post-title">
-      <a href="https://github.com/nicedream18/nicedream18.github.io.git/post/hello-gridea/">
-        <h2>Hello Gridea</h2>
-      </a>
-    </div>
-    <div class="post-info">
-      <time class="post-time">
-        2018-12-12
-      </time>
-      
-        <a href="https://github.com/nicedream18/nicedream18.github.io.git/tag/lN592IgkT/" class="post-tag">
-          # Gridea
-        </a>
-      
-    </div>
-    <div class="post-abstract content">
-      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-    </div>
-  </article>
-
-
-
-
-          </section>
-
-          <div class="pagination-container">
-  
-  
-</div>
-
           
+          </section>  
+
         </div>
       </div>
+
+      <!-- back to top -->
+      <button oneclik="topFunction()" id="BackToTop">
+        TOP
+      </button>
 
       <!-- Footer -->
 <footer id="footer">
@@ -169,11 +133,18 @@
   </div>
 </footer>
 
-    <!-- Scripts -->
     <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/jquery.min.js"></script>
     <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/browser.min.js"></script>
     <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/breakpoints.min.js"></script>
     <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/util.js"></script>
     <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/main.js"></script>
+    <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/view-image.min.js"></script>
+    <script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/lazyload.min.js"></script>
+    <script>
+      back_to_top();
+      window.ViewImage && ViewImage.init('img');
+      var lazyLoadInstance = new LazyLoad({});
+      lazyLoadInstance.update();
+    </script>
   </body>
 </html>

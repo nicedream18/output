@@ -1,126 +1,139 @@
+<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
-<title>nicedream的小站</title>
-<meta name="description" content="小网站">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://github.com/nicedream18/nicedream18.github.io.git/favicon.ico?v=1679730533992">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <meta charset="utf-8" />
+<meta name="description" content="小网站" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title> nicedream的小站</title>
+<link rel="shortcut icon" href="https://github.com/nicedream18/nicedream18.github.io.git/favicon.ico?v=1679730860566">
 <link rel="stylesheet" href="https://github.com/nicedream18/nicedream18.github.io.git/styles/main.css">
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://github.com/nicedream18/nicedream18.github.io.git">
-        <img class="avatar" src="https://github.com/nicedream18/nicedream18.github.io.git/images/avatar.png?v=1679730533992" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://github.com/nicedream18/nicedream18.github.io.git">
-        <h1 class="site-title">nicedream的小站</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+  <body class="is-preload"> 
+		<!-- Wrapper -->
+			<div id="wrapper">
+      <!-- Header -->
+<header id="header">
+  <div class="inner">
+    <!-- Logo -->
+    <a href="https://github.com/nicedream18/nicedream18.github.io.git" class="logo">
+      <span class="symbol"
+        ><img
+          src="https://github.com/nicedream18/nicedream18.github.io.git/images/avatar.png?v=1679730860566"
+          alt=""
+        />
+      </span>
+      <div class="site-title"> nicedream的小站 </div>
+    </a>
+
+    <!-- Nav -->
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
   </div>
-</div>
+</header>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+<!-- Menu -->
+<nav id="menu">
+  <ul>
+    
+    
+      <li><a href="/" class="menu">
+        首页
+      </a></li>
       
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
+    
+    
+      <li><a href="/archives" class="menu">
+        归档
+      </a></li>
       
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
+    
+    
+      <li><a href="/tags" class="menu">
+        标签
+      </a></li>
       
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
+    
+    
+      <li><a href="/post/about" class="menu">
+        关于
+      </a></li>
       
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
+    
+  </ul>
+</nav>
 
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+              <h2 class="tags-title">
+                标签
+              </h2> 
+              <div class="tags-container">
+                
+                  <a class="tag" href="https://github.com/nicedream18/nicedream18.github.io.git/tag/lN592IgkT/">Gridea</a>
+                
+              </div>
+    
+            </div>
+					</div>
 
-        <div class="content-container">
+        <!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <section>
+      <h2>Follow</h2>
+      <ul class="icons">
+        
           
-          <div class="tags-container">
-            
-              <a class="tag" href="https://github.com/nicedream18/nicedream18.github.io.git/tag/lN592IgkT/">Gridea</a>
-            
-          </div>
-
-        </div>
-
-        <div class="site-footer">
-  <div class="slogan">小网站</div>
-  <div class="social-container">
-    
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </section>
+    <ul class="copyright">
+      <li>
+        <a href="https://github.com/nicedream18/nicedream18.github.io.git/atom.xml" target="_blank">
+          RSS
+        </a> 
+      </li>
+      <li><a href="https://github.com/wherelse/gridea-theme-phantom">Theme Phantom</a></li>
+      <li>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></li>
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    </ul>
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://github.com/nicedream18/nicedream18.github.io.git/atom.xml" target="_blank">RSS</a>
-</div>
+</footer>
+			</div>
 
+		<!-- Scripts -->
+			<script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/jquery.min.js"></script>
+			<script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/browser.min.js"></script>
+			<script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/breakpoints.min.js"></script>
+			<script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/util.js"></script>
+			<script src="https://github.com/nicedream18/nicedream18.github.io.git/media/scripts/main.js"></script>
 
       </div>
-      <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
     </div>
   </body>
 </html>
+
